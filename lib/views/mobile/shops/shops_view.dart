@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/utils/app_colors.dart';
 import 'package:shop_app/utils/ui_helper.dart';
 
 import 'package:shop_app/widgets/responsive.dart';
 
-class FoodGroceriesAvailabilityView extends StatelessWidget {
+class ShopsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isTabletDesktop = Responsive.isTabletDesktop(context);
@@ -32,7 +31,7 @@ class FoodGroceriesAvailabilityView extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Text(
-                        'We are now deliverying products and other essentials.',
+                        'We are now deliverying products from your favourite outlets',
                         style: Theme.of(context).textTheme.headline4,
                       ),
                       UIHelper.verticalSpaceSmall(),

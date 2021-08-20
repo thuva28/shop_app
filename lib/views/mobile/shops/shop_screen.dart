@@ -5,7 +5,7 @@ import 'package:shop_app/utils/ui_helper.dart';
 import 'package:shop_app/widgets/custom_divider_view.dart';
 import 'package:shop_app/widgets/responsive.dart';
 
-import 'food_groceries_availability_view.dart';
+import 'shops_view.dart';
 
 import 'shops/shops_vertical_list_view.dart';
 
@@ -24,7 +24,7 @@ class ShopScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      FoodGroceriesAvailabilityView(),
+                      ShopsView(),
                       CustomDividerView(),
                       ShopVerticalListView(
                         title: 'All shops Nearby',
